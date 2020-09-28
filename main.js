@@ -6,7 +6,7 @@ function getAll() {
         firebase.database().ref("Post/" + i + "/Url").on('value', function (snapshot) {
             console.log(snapshot.val())
             document.getElementById("stream").innerHTML += 
-            "<br><img src = '" + snapshot.val() + "'/>" 
+            "<br><img src = '" + snapshot.val() + "' width = '200'/>" 
         })
     }
 }
