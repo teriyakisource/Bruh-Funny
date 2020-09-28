@@ -12,5 +12,8 @@
 .post
 {
     border:5px solid black;
+    width: 30%;
+    text-align: center;
+    left: 50%;
     
 }
