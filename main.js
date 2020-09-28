@@ -8,7 +8,7 @@ function getAll() {
             snapshot.val()["Name"]
 
             document.getElementById("stream").innerHTML = 
-            "<br><br><div class = 'post'><h3>" + snapshpt.val()["Name"] + "</h3></div><br><img src = " + snapshot.val()["Url"] + "<br>"
+            "<br><br><div class = 'post'><h3>" + snapshot.val()["Name"] + "</h3></div><br><img src = " + snapshot.val()["Url"] + "<br>"
             
         })
 
