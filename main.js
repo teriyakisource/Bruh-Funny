@@ -11,13 +11,4 @@ function getAll() {
     }
 }
 
-function getMegaBruh() {
-
-}
-
-function getBruhMoment() {
- 
-}
-
-
 getAll()
