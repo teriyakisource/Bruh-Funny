@@ -1,4 +1,4 @@
-window.postReqAmount = 1;
+window.postReqAmount = 2;
 
 function getAll() {
     for (i = 1; i <= window.postReqAmount; i++) {
