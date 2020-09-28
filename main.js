@@ -3,14 +3,11 @@ window.postReqAmount = 3;
 function getAll() {
     for (i = 1; i <= window.postReqAmount; i++) {
         console.log("running loop")
-        var content = []
-        firebase.database().ref("Post/" + i).on('value', function (snapshot) {
-            content += snapshot.val();
+        firebase.database().ref("Post/" + i + "/Url").on('value', function (snapshot) {
             console.log(snapshot.val())
-            
+            document.getElementById("stream").innerHTML += 
+            "<br><img src = '" + snapshot.val() + "' width = '200'/><br>" 
         })
-        document.getElementById("stream").innerHTML += 
-            "<br><br><p>" + "lmao" + "<br><img src = '" + content[1] + "' width = '200'/>" 
     }
 }
 
@@ -19,7 +16,7 @@ function getMegaBruh() {
 }
 
 function getBruhMoment() {
-
+ 
 }
 
 
