@@ -8,3 +8,10 @@
     position: sticky;
     text-align: right;
 }
+
+.post
+{
+    border-color: black;
+    border-width: 10px;
+    
+}
