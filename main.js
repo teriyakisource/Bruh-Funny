@@ -5,13 +5,13 @@ function getAll() {
         console.log("running loop")
         var returnval = []
         firebase.database().ref("Post/" + i).on('value', function (snapshot) {
-            returnval += snapshot.val()
+            returnval += snapshot.val()["name"]
             console.log(snapshot.val())
 
             
         })
 
-        console.log("Returnval: ", returnval)
+        
     }
 }
 
