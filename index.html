@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Bruh Funny</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
-  </head>
-  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+</head>
+
+<body>
     <script src="src/firebaseconfig.js"></script>
     <script src="src/main.js"></script>
 
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="#">Bruh Funny - Bruh Memes and More!</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Bruh Funny - Bruh Memes and More!</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bruh Memes <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Mega Bruh!!!</a></li>
-                    <li><a href="#">Bruh moment!</a></li>
-                    <li><a href="#">OKBR</a></li>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="/bruhmemes/">Bruh Memes <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/bruhmemes/megabruh/">Mega Bruh!!!</a></li>
+                            <li><a href="/bruhmemes/bruhmoment/">Bruh moment!</a></li>
+                            <li><a href="https://www.reddit.com/r/okbuddyretard">OKBR</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="https://www.reddit.com/r/okbuddyretard">r/OKBR</a></li>
                 </ul>
-                </li>
-                <li><a href="#">About</a></li>
-                <li><a href="https://www.reddit.com/r/okbuddyretard">r/OKBR</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
             </div>
         </div>
     </nav>
 
 
-    <div class = "mainFeed">
-        <img src = "bruhmemes/bruh1.jpeg" height="300"/>
+    <div class="mainFeed">
+        <img src="bruhmemes/bruh1.jpeg" height="300" />
         <br>
-        <img src = "bruhmemes/bruh2.jpeg" height="300"/>
+        <img src="bruhmemes/bruh2.jpeg" height="300" />
         <br>
-        <img src = "bruhmemes/bruh3.gif" height="300"/>
+        <img src="bruhmemes/bruh3.gif" height="300" />
         <br>
-        <img src = "bruhmemes/bruh4.jpeg" height="300"/>
+        <img src="bruhmemes/bruh4.jpeg" height="300" />
         <br>
     </div>
-    
 
 
 
-  </body>
+
+</body>
+
 </html>
