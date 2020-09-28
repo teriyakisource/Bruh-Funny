@@ -10,7 +10,7 @@ function getAll() {
             
         })
         document.getElementById("stream").innerHTML += 
-            "<br><br><p>" + content[0] + "<br><img src = '" + content[1] + "' width = '200'/>" 
+            "<br><br><p>" + "lmao" + "<br><img src = '" + content[1] + "' width = '200'/>" 
     }
 }
 
