@@ -1,7 +1,7 @@
-window.postReqAmount = 2;
+window.postReqAmount = 3;
 
 function getAll() {
-    for (i = 0; i < window.postReqAmount; i++) {
+    for (i = 1; i <= window.postReqAmount; i++) {
         console.log("running loop")
         firebase.database().ref("Post/" + i + "/Url").on('value', function (snapshot) {
             console.log(snapshot.val())
